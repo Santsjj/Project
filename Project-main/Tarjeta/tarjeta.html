@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assests/styles/tarjeta.css">
+    <title>Registro de tarjeta</title>
+</head>
+<body>
+    <main>
+        <h1 class="titleInicio">Registra tu tarjeta </h1>
+        <form class="form">
+            <div class="cards">
+                <div class="card">
+                    <div class="inputCont">
+                        <label for="cardnumber">Número de tarjeta:</label>
+                        <input type="text" id="cardnumber" name="cardnumber" placeholder="Como aparece en la tarjeta" minlength="13" maxlength="16" tabindex="0"autofocus="true" required>
+                    </div>
+                    <div class="inputCont">
+                        <label for="expCard">Fecha de expedición:</label>
+                        <input type="text" id="expCard" name="expCard" autofocus="true" required>
+                    </div>  
+                    <div class="inputCont">
+                        <label for="cardCode">Código de tarjeta:    </label>
+                        <input type="text" id="cardCode" name="cardCode"placeholder="3 dígitos" minlength="3" maxlength="3" tabindex="0"autofocus="true" required>
+                    </div> 
+                </div>
+                <div class="card">
+                    <div class="inputCont">
+                        <label for="cardnumber">Número de tarjeta:</label>
+                        <input type="text" id="cardnumber1" name="cardnumber" placeholder="Como aparece en la tarjeta" minlength="13" maxlength="50" tabindex="0"autofocus="true" required>
+                    </div>
+                    <div class="inputCont">
+                        <label for="expCard">Fecha de expedición:</label>
+                        <input type="text" id="expCard1" name="expCard" autofocus="true" required>
+                    </div>  
+                    <div class="inputCont">
+                        <label for="cardCode">Código de tarjeta:    </label>
+                        <input type="text" id="cardCode1" name="cardCode"placeholder="3 dígitos" minlength="3" maxlength="50" tabindex="0"autofocus="true" required>
+                    </div> 
+                </div>
+                <div class="inputCont">
+                    <button class="continue" id="continue"><strong>Continuar</strong></button>
+                </div>
+            </div>
+        </form>
+    </main> 
+    <script src="./Assests/scripts/validate.js"></script>
+</body>
+</html>
